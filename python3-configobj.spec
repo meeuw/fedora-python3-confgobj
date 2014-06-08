@@ -4,7 +4,7 @@
 
 Name: python3-configobj
 Version: 4.7.2
-Release: 5.%{checkout}%{?dist}
+Release: 6.%{checkout}%{?dist}
 Summary: Config file reading, writing, and validation
 License: BSD
 
@@ -55,6 +55,9 @@ export PYTHONPATH="%{buildroot}/%{python3_sitelib}"
 %{python3_sitelib}/*
 
 %changelog
+* Sun Jun 08 2014 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 4.7.2-6.20131004hg10adc6e7d759
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_21_Mass_Rebuild
+
 * Wed May 14 2014 Bohuslav Kabrda <bkabrda@redhat.com> - 4.7.2-5.20131004hg10adc6e7d759
 - Rebuilt for https://fedoraproject.org/wiki/Changes/Python_3.4
 
